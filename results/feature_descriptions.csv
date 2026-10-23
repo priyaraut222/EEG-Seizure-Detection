@@ -1,0 +1,18 @@
+feature,meaning,type
+mean,Average value of the segment (offset).,statistical
+std,Standard deviation: typical amplitude fluctuation.,statistical
+var,Variance: signal power around the mean.,statistical
+rms,Root mean square: overall amplitude including offset.,statistical
+energy,Sum of squares: total signal energy of the segment.,statistical
+ptp,"Peak-to-peak: max minus min, sensitive to large spikes.",statistical
+skew,Skewness: asymmetry of the amplitude distribution.,statistical
+kurtosis,Excess kurtosis: heavy tails / spikiness of the amplitude distribution.,statistical
+line_length,Sum of |x[n+1]-x[n]|: grows with amplitude and with fast oscillation; classic seizure feature.,temporal
+hjorth_mobility,Hjorth mobility: sqrt(var(dx)/var(x)); proxy for the mean frequency.,temporal
+hjorth_complexity,Hjorth complexity: how much the waveform deviates from a pure sine.,temporal
+bp_<band>,Absolute band power (area under the Welch PSD inside the band). (frequency unit: cycles/sample),spectral
+rbp_<band>,Relative band power: band power / total power over the bands. (frequency unit: cycles/sample),spectral
+dominant_freq,Frequency of the largest PSD peak (excluding 0). (frequency unit: cycles/sample),spectral
+spectral_centroid,Power-weighted mean frequency of the PSD. (frequency unit: cycles/sample),spectral
+spectral_entropy,"Normalised Shannon entropy of the PSD (0 = single tone, 1 = flat/white). (frequency unit: cycles/sample)",spectral
+spectral_edge95,Frequency below which 95% of the power lies. (frequency unit: cycles/sample),spectral

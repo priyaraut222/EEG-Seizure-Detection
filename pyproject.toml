@@ -1,0 +1,31 @@
+[project]
+name = "eeg-signal-classification"
+version = "0.1.0"
+description = "Epileptic seizure detection from CHB-MIT-derived EEG using DSP and classical ML"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "joblib>=1.6.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.32,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+app = [
+    "streamlit>=1.66.1",
+]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.4",
+    "nbconvert>=7.17.2",
+    "nbformat>=5.11.1",
+    "pytest>=9.1.1",
+]

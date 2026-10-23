@@ -1,0 +1,14 @@
+item,status,evidence / consequence
+"File size, rows, columns",verified,"11233 x 36865, 2.647 GB"
+"All signal columns numeric, no NaN/inf",verified,"NaN=0, inf=0"
+Duplicate rows,verified,877
+Column-wise standard scaling,consistent with creator's claim,"{'column_means_near_0': True, 'column_stds_near_1': True, 'consistent_with_column_wise_standard_scaling': True}"
+Meaning of target labels,inferred,"seizure = 1, non-seizure = 0"
+Row structure / segment layout,blocks,18 blocks x 2048 samples (inferred from data)
+Physical channel arrangement (which electrode),MISSING,"blocks, if any, cannot be mapped to electrodes from this CSV"
+Sampling frequency,MISSING,not in CSV; source database is 256 Hz but resampling is undocumented
+Segment duration in seconds,MISSING,depends on the sampling frequency
+Physical units (microvolts),LOST,standard scaling turned values into dimensionless z-scores
+Existing band-pass / notch filtering,UNKNOWN,checked indirectly from the spectrum in Phase 2
+Patient / recording identifiers,MISSING,patient-independent evaluation is impossible with this CSV
+Temporal order / time stamps of rows,MISSING,see section 7 for hints from the label order

@@ -1,0 +1,15 @@
+{
+  "layout": "blocks",
+  "block_length": 2048,
+  "n_blocks": 18,
+  "structure_note": "Equal-length contiguous segments detected from regular jumps in adjacent-column difference.",
+  "approx_lag1_correlation": 0.8455805313136933,
+  "seizure_label": 1,
+  "non_seizure_label": 0,
+  "label_status": "inferred: observed class counts match the counts reported by the dataset creator",
+  "fs_hz": null,
+  "fs_status": "unknown - analysis in normalised frequency",
+  "standard_scaling_consistent": true,
+  "subject_ids_available": false,
+  "patient_independent_evaluation_possible": false
+}

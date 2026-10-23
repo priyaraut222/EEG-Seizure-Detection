@@ -1,0 +1,40 @@
+{
+  "csv_file": "EEG_Scaled_data.csv",
+  "csv_size_gb": 2.647,
+  "n_rows": 11233,
+  "n_columns": 36865,
+  "n_signal_columns": 36864,
+  "header_problems": [],
+  "all_signal_columns_numeric": true,
+  "n_nan_values": 0,
+  "n_inf_values": 0,
+  "n_duplicate_rows": 877,
+  "label_counts": {
+    "0": 9799,
+    "1": 1434
+  },
+  "column_mean_min": -0.00044698655746461263,
+  "column_mean_max": 0.0004000712187305233,
+  "column_std_min": 0.9998441795156359,
+  "column_std_max": 1.0001401072114404,
+  "n_constant_columns": 0,
+  "signal_min": -31.51799964904785,
+  "signal_max": 34.069000244140625,
+  "header_report": {
+    "n_columns": 36865,
+    "n_signal_columns": 36864,
+    "problems": []
+  },
+  "scaling_check": {
+    "column_means_near_0": true,
+    "column_stds_near_1": true,
+    "consistent_with_column_wise_standard_scaling": true
+  },
+  "reported_by_creator": {
+    "n_rows": 11233,
+    "n_columns": 36865,
+    "n_signal_columns": 36864,
+    "n_non_seizure": 9799,
+    "n_seizure": 1434
+  }
+}

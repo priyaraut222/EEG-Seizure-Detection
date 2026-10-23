@@ -1,0 +1,17 @@
+# Python / environments
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Large or generated files (kept out of GitHub by default)
+EEG_Scaled_data.csv
+*.csv.zip
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+results/*.npz
+results/predictions.csv
+results/split_indices.csv
